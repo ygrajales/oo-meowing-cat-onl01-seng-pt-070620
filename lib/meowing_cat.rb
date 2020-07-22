@@ -1,4 +1,6 @@
 ## code your solution here. 
+require 'pry'
+
 class Cat 
   
   attr_accessor :name 
@@ -6,5 +8,5 @@ class Cat
   def meow
     puts "meow!"
   end
-  
+  binding.pry
 end
